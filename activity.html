@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전국 테마파크 가이드 - 액티비티</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      list-style-type: none;
+    }
+    body {
+      font-family: "맑은 고딕", "돋움";
+      font-size: 100%;
+    }
+    [class*="c_"] {
+      float: left;
+      padding: 10px;
+    }
+    
+    [class*="c_"] {
+      width: 100%;
+    }
+    
+    @media only screen and (min-width: 600px) {
+      .c_m_1 { width: 8.33%; }
+      .c_m_2 { width: 16.66%; }
+      .c_m_3 { width: 25%; }
+      .c_m_4 { width: 33.33%; }
+      .c_m_5 { width: 41.66%; }
+      .c_m_6 { width: 50%; }
+      .c_m_7 { width: 58.33%; }
+      .c_m_8 { width: 66.66%; }
+      .c_m_9 { width: 75%; }
+      .c_m_10 { width: 83.33%; }
+      .c_m_11 { width: 91.66%; }
+      .c_m_12 { width: 100%; }
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .c_1 { width: 8.33%; }
+      .c_2 { width: 16.66%; }
+      .c_3 { width: 25%; }
+      .c_4 { width: 33.33%; }
+      .c_5 { width: 41.66%; }
+      .c_6 { width: 50%; }
+      .c_7 { width: 58.33%; }
+      .c_8 { width: 66.66%; }
+      .c_9 { width: 75%; }
+      .c_10 { width: 83.33%; }
+      .c_11 { width: 91.66%; }
+      .c_12 { width: 100%; }
+    }
+    
+    header {
+      height: 80px;
+      padding: 20px;
+      background-color: #27eb15;
+    }
+    aside#menu {
+      color: #ffffff;
+    }
+    aside#menu li {
+      margin: 8px 0 0 0;
+      background-color: #5db5eb;
+      border-radius: 4px;
+      box-shadow: 0 3px 0 #378cb5; 
+      transition: all 0.1s ease; 
+    }
+    aside#menu li:hover {
+      background-color: #4caee7;
+    }
+    aside#menu li:active {
+      transform: translateY(3px);
+      box-shadow: none; 
+    }
+    
+    aside#menu li.active {
+      background-color: #3ca0dd;
+      transform: translateY(3px);
+      box-shadow: none;
+    }
+    
+    aside#menu a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    section#main {
+      padding: 15px;
+    }
+    section#main p {
+      padding: 5px;
+      font-size: 0.95em;
+      line-height: 130%;
+    }
+    .discount-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+      font-size: 0.9em;
+    }
+    .discount-table th, .discount-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    .discount-table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    .tip-box {
+      background-color: #f9f9f9;
+      border-left: 4px solid #5db5eb;
+      padding: 10px;
+      margin: 15px 0;
+      font-size: 0.9em;
+    }
+    aside#photos img {
+      width: 100%;
+    }
+    aside#photos li {
+      margin: 5px 0 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="c12">
+    <h1>
+      <a href="index.html" style="color: black; text-decoration: none; display: inline-block;">전국 테마파크 가이드</a>
+    </h1>
+  </header>
+
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li><a href="themepark.html">놀이공원</a></li>
+      <li><a href="waterpark.html">워터파크</a></li>
+      <li><a href="aquarium.html">아쿠아리움</a></li>
+      <li class="active"><a href="activity.html">액티비티</a></li>
+      <li><a href="family.html">패밀리존</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <h1>짜릿한 모험! 전국 액티비티 가이드</h1>
+    <p>일상에서 벗어나 온몸으로 스릴을 만끽할 수 있는 전국 각지의 이색 액티비티 명소를 소개하는 페이지입니다. 루지, 짚라인, 실내 스포츠파크 등 다이내믹한 체험을 가장 합리적인 가격으로 즐길 수 있는 방법을 확인해 보세요.</p>
+
+    <table class="discount-table">
+      <thead>
+        <tr>
+          <th>액티비티 명소</th>
+          <th>기본 할인 정보</th>
+          <th>이달의 특별 혜택</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>스포츠몬스터 (실내 스포츠)</strong></td>
+          <td>네이버 N예매 이용 시 주중/주말 5~10% 상시 할인</td>
+          <td>오후 6시 이후 입장 고객 야간 특별 20% 우대</td>
+        </tr>
+        <tr>
+          <td><strong>통영 케이블카 & 루지</strong></td>
+          <td>두 시설 연계 패키지권 구매 시 최대 20% 결합 할인</td>
+          <td>당일 통영시 내 숙박 영수증 제시 시 인당 2,000원 추가 할인</td>
+        </tr>
+        <tr>
+          <td><strong>남이섬 짚와이어</strong></td>
+          <td>남이섬 입장료 포함 패키지 온라인 사전 예약 할인</td>
+          <td>4인 이상 단체 방문 및 학생증 제시 시 15% 현장 우대</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="tip-box">
+      <strong>💡 안전하고 즐거운 액티비티 이용을 위한 팁!</strong><br>
+      대부분의 높은 스릴을 요구하는 액티비티(짚라인, 루지, 클라이밍 등)는 안전을 위해 **바지와 운동화 착용이 필수**이며, 치마나 샌들 착용 시 이용이 제한될 수 있습니다. 또한 기상 상황(강풍, 폭우 등)에 따라 실외 시설은 운영 여부가 수시로 바뀌므로 방문 전 전화나 홈페이지로 운영 상태를 꼭 체크하세요!
+    </div>
+
+    <p>우측 포토갤러리 영역에는 시원하게 트인 하늘을 나는 짚라인과 역동적인 루지 레이싱의 순간들이 있습니다. 안내해 드린 할인 정보와 꿀팁을 참고해 활력 넘치고 짜릿한 주말 모험을 계획해 보세요!</p>
+  </section>
+
+  <aside id="photos" class="c_m_12 c_3">
+    <h4>포토갤러리</h4>
+    <ul>
+      <li><img src="img/photo9.jpeg"></li>
+      <li><img src="img/photo10.jpeg"></li>
+    </ul>
+  </aside>
+
+</body>
+</html>
