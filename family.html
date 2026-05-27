@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전국 테마파크 가이드 - 패밀리존</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      list-style-type: none;
+    }
+    body {
+      font-family: "맑은 고딕", "돋움";
+      font-size: 100%;
+    }
+    [class*="c_"] {
+      float: left;
+      padding: 10px;
+    }
+    
+    [class*="c_"] {
+      width: 100%;
+    }
+    
+    @media only screen and (min-width: 600px) {
+      .c_m_1 { width: 8.33%; }
+      .c_m_2 { width: 16.66%; }
+      .c_m_3 { width: 25%; }
+      .c_m_4 { width: 33.33%; }
+      .c_m_5 { width: 41.66%; }
+      .c_m_6 { width: 50%; }
+      .c_m_7 { width: 58.33%; }
+      .c_m_8 { width: 66.66%; }
+      .c_m_9 { width: 75%; }
+      .c_m_10 { width: 83.33%; }
+      .c_m_11 { width: 91.66%; }
+      .c_m_12 { width: 100%; }
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .c_1 { width: 8.33%; }
+      .c_2 { width: 16.66%; }
+      .c_3 { width: 25%; }
+      .c_4 { width: 33.33%; }
+      .c_5 { width: 41.66%; }
+      .c_6 { width: 50%; }
+      .c_7 { width: 58.33%; }
+      .c_8 { width: 66.66%; }
+      .c_9 { width: 75%; }
+      .c_10 { width: 83.33%; }
+      .c_11 { width: 91.66%; }
+      .c_12 { width: 100%; }
+    }
+    
+    header {
+      height: 80px;
+      padding: 20px;
+      background-color: #27eb15;
+    }
+    aside#menu {
+      color: #ffffff;
+    }
+    aside#menu li {
+      margin: 8px 0 0 0;
+      background-color: #5db5eb;
+      border-radius: 4px;
+      box-shadow: 0 3px 0 #378cb5; 
+      transition: all 0.1s ease; 
+    }
+    aside#menu li:hover {
+      background-color: #4caee7;
+    }
+    aside#menu li:active {
+      transform: translateY(3px);
+      box-shadow: none; 
+    }
+    
+    aside#menu li.active {
+      background-color: #3ca0dd;
+      transform: translateY(3px);
+      box-shadow: none;
+    }
+    
+    aside#menu a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    section#main {
+      padding: 15px;
+    }
+    section#main p {
+      padding: 5px;
+      font-size: 0.95em;
+      line-height: 130%;
+    }
+    .discount-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+      font-size: 0.9em;
+    }
+    .discount-table th, .discount-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    .discount-table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    .tip-box {
+      background-color: #f9f9f9;
+      border-left: 4px solid #5db5eb;
+      padding: 10px;
+      margin: 15px 0;
+      font-size: 0.9em;
+    }
+    aside#photos img {
+      width: 100%;
+    }
+    aside#photos li {
+      margin: 5px 0 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="c12">
+    <h1>
+      <a href="index.html" style="color: black; text-decoration: none; display: inline-block;">전국 테마파크 가이드</a>
+    </h1>
+  </header>
+
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li><a href="themepark.html">놀이공원</a></li>
+      <li><a href="waterpark.html">워터파크</a></li>
+      <li><a href="aquarium.html">아쿠아리움</a></li>
+      <li><a href="activity.html">액티비티</a></li>
+      <li class="active"><a href="family.html">패밀리존</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <h1>온 가족이 함께! 전국 패밀리존 가이드</h1>
+    <p>어린아이부터 할아버지, 할머니까지 온 가족이 다 함께 편안하고 따뜻한 추억을 만들 수 있는 가족 친화형 명소들을 소개합니다. 뽀로로앤타요 테마파크, 레고랜드, 키자니아 등을 더욱 알뜰하게 다녀오실 수 있는 가족 맞춤형 할인 혜택입니다.</p>
+
+    <table class="discount-table">
+      <thead>
+        <tr>
+          <th>패밀리 테마파크</th>
+          <th>기본 할인 정보</th>
+          <th>이달의 특별 혜택</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>레고랜드 코리아</strong></td>
+          <td>가족 3인/4인 이용권 패키지 예매 시 최대 20% 할인</td>
+          <td>강원도민 주중 상시 25% 특별 우대</td>
+        </tr>
+        <tr>
+          <td><strong>키자니아 (직업체험)</strong></td>
+          <td>오후권(2부) 예매 시 오전권 대비 15% 저렴</td>
+          <td>통신사 멤버십 제휴 카드 결제 시 최대 30% 포인트 할인</td>
+        </tr>
+        <tr>
+          <td><strong>뽀로로앤타요 테마파크</strong></td>
+          <td>다자녀(셋째 이상) 가구 방문 시 어린이 무료 입장</td>
+          <td>네이버 플레이스 사전 예약 시 최대 20% 상시 우대</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="tip-box">
+      <strong>💡 아이와 함께하는 안심 나들이 체크리스트!</strong><br>
+      가족 전용 테마파크를 방문하실 때는 입장 직후 **유모차 대여소와 수유실(유아휴게실), 그리고 의무실의 위치**를 미리 확인해 두시는 것이 좋습니다. 아이가 좋아하는 캐릭터 뮤지컬이나 인형극 공연은 주말의 경우 조기 만석이 되니 입장과 동시에 공연 시간을 확보해 관람 동선을 짜는 것이 유리합니다.
+    </div>
+
+    <p>우측 포토갤러리 영역에는 아이들의 웃음소리가 가득한 정원과 행복한 가족 나들이 현장의 사진들이 있습니다. 안내해 드린 할인 정보와 세심한 팁들을 꼼꼼하게 챙기셔서 소중한 가족들과 잊지 못할 완벽한 하루를 보내보세요!</p>
+  </section>
+
+  <aside id="photos" class="c_m_12 c_3">
+    <h4>포토갤러리</h4>
+    <ul>
+      <li><img src="정원.jpeg"></li>
+      <li><img src="가족.jpeg"></li>
+    </ul>
+  </aside>
+
+</body>
+</html>
